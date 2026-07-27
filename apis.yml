@@ -1,8 +1,28 @@
 aid: insurdata
 name: Insurdata
-description: Insurdata is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Insurdata is a re/insurance technology company providing global, best-in-class
+  geocoding and property exposure data. Its unique multi-sourced methodology delivers
+  the highest-resolution, building-level geocoding available worldwide, together with
+  building-perimeter and property-characteristic data that lets underwriters and
+  catastrophe modelers assess risk at the individual-property level at the point of
+  underwriting. Insurdata's augmented exposure data has been used in collaborative
+  studies with carriers such as Canopius and flood modelers such as Fathom to sharpen
+  exposure levels and average-annual-loss (AAL) forecasts. The company is a portfolio
+  company of Anthemis and serves the global re/insurance market.
 url: https://raw.githubusercontent.com/api-evangelist/insurdata/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.insurdata.io/img/insurdata-full_72rgb.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insurance
+- Reinsurance
+- Geocoding
+- Exposure Data
+- Property Data
+- Risk
+- Catastrophe Modeling
+- Insurtech
+- Geospatial
 apis: []
+common:
+- type: DomainSecurity
+  url: security/insurdata-domain-security.yml
+- type: Website
+  url: https://www.insurdata.io/
+- type: PrivacyPolicy
+  url: https://www.insurdata.io/privacy-policy
+- type: Support
+  url: https://www.insurdata.io/contact-and-support
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
