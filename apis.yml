@@ -11,6 +11,17 @@ description: >-
   exposure levels and average-annual-loss (AAL) forecasts. The company is a portfolio
   company of Anthemis and serves the global re/insurance market.
 url: https://raw.githubusercontent.com/api-evangelist/insurdata/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
